@@ -80,7 +80,7 @@ img {
 
 .texto button {
     position: absolute;
-    top: 63%;
+    top: 70%;
     color: #fff;
     text-align: center;
     left: 8%;
@@ -189,7 +189,7 @@ img {
         transition: 0.8s;
         border-bottom: solid 2px #fff;
         border-radius: 0;
-        padding: auto;
+        padding: 6px;
     }
 
     img {
