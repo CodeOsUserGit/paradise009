@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+  
+    background-color: rgb(14, 13, 13);
+}
+
+h3 {
+    font-size: 30px;
+    color: rgb(255, 0, 0);
+    padding: 20px;
+}
+
+.grilla {
+    padding: 10px 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    grid-gap: 7px;
+}
+
+.grilla .tarjeta {
+    background-color: rgb(58, 57, 57);
+    border-radius: 10px;
+    
+}
+
+.grilla .tarjeta .contenedor {
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%, 0 0);
+}
+
+.grilla .tarjeta img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.grilla .tarjeta .texto {
+    padding: 0;
+}
+
+.grilla .tarjeta .texto h3 {
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(215, 215, 215);
+}
+
+@media(max-width: 700px) {
+    .grilla {
+        padding: 20px 20px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+        grid-gap: 10px;
+    }
+
+    .grilla .tarjeta .texto h3 {
+        font-size: 10px;
+        font-weight: 800;
+    }
+
+    .grilla .tarjeta img {
+        height: 160px;
+        object-fit: cover;
+        border-radius: 10px 10px 0 0;
+    }
+}
+
+@media(max-width: 830px) {}
