@@ -195,15 +195,16 @@ img {
         min-height: 100%;
     }
 
-    .objetivos {
+   
+
+}@media (max-width: 380px){
+    nav ul li a {
+        text-decoration: none;
+        font-size: 8px;
+        font-weight: 800;
+        transition: 0.8s;
+        border-bottom: solid 1px #fff;
+        border-radius: 0;
         padding: 0;
-        float: right;
     }
-
-    .mision,
-    .vision,
-    .otra {
-        width: 100%;
-    }
-
 }
