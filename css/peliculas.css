@@ -246,12 +246,16 @@ span{
     border: none;
     margin-bottom: 100px;
     cursor: pointer;
+    margin-bottom: 20px;
 }
 @media(max-width: 800px){
     .algo{
         width: 300px;
         left: 5%;
         top: 17%;
+        height: 490px;
         background-color: rgb(218, 215, 215);
+    }.algo button{
+        margin-bottom: 20px;
     }
 }
