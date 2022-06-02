@@ -208,3 +208,50 @@ img {
         padding: 0;
     }
 }
+
+.algo {
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    z-index: 3;
+    text-align: center;
+    background-color: #f2f2f2;
+    width: 27rem;
+    height: 30rem;
+    border-radius: 20px;
+    
+}
+
+.algo img {
+    border-radius: 10px 10px 0 0;
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+span{
+    color: red;
+}
+.algo h3{
+    padding: 20px;
+    text-align: justify;
+}
+.algo button{
+    padding: 12px 100px;
+    border-radius: 10px;
+    width: 80%;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 900;
+    background: red;
+    border: none;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+@media(max-width: 800px){
+    .algo{
+        width: 700px;
+        left: 5%;
+        top: 17%;
+        background-color: #fff;
+    }
+}
