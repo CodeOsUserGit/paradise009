@@ -249,9 +249,9 @@ span{
 }
 @media(max-width: 800px){
     .algo{
-        width: 700px;
+        width: 78%;
         left: 5%;
         top: 17%;
-        background-color: #fff;
+        background-color: rgb(218, 215, 215);
     }
 }
